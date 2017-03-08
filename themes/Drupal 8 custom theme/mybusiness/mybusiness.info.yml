@@ -1,0 +1,19 @@
+name: My Business
+type: theme
+description: A blue theme for my business website!
+package: themes
+core: 8.x
+screenshot: screenshot.jpg
+
+base theme: bootstrap
+
+libraries:
+  - mybusiness/global
+
+stylesheets-remove:
+
+regions:
+  header: 'Header'
+  leftsidebar: 'Left Sidebar'
+  content: 'Main Content'
+  footer: 'Footer'
